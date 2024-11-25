@@ -1,0 +1,59 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #3498db;
+}
+
+h2 {
+    color: #2ecc71;
+}
+
+input {
+    margin: 10px 0;
+    padding: 8px;
+    width: 100%;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#pdfViewer {
+    margin: 20px auto; /* Center the viewer */
+    max-width: 100%; /* Ensure the viewer is not wider than the screen */
+    overflow-x: auto; /* Enable horizontal scrolling if needed */
+}
+
+@media (max-width: 600px) {
+    #pdfViewer {
+        max-width: 100%; /* Adjust for smaller screens */
+    }
+}
+
+.page-container {
+    margin-bottom: 10px; /* Adjust margin for smaller screens */
+}
+
+
